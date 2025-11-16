@@ -1,7 +1,6 @@
 import { writeFile } from 'fs/promises';
 
-const COMMIT_HASH = "ecd9fb1b4a38381df95048c19cf9b8bdcbb1ec09";
-const BASE_URL = `https://raw.githubusercontent.com/shikijs/textmate-grammars-themes/${COMMIT_HASH}/packages`;
+const BASE_URL = `https://raw.githubusercontent.com/shikijs/textmate-grammars-themes/main/packages`;
 
 const SOURCES = [
     {
